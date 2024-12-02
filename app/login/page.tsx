@@ -38,12 +38,14 @@ export default function LoginPage() {
         description: "Bienvenido al sistema",
         duration: 2000,
       });
-      router.push("/dashboard");
+      router.push("/");
     } else {
       toast({
+        variant: "destructive", // Eliminamos esta línea que causa el error
         title: "Error",
         description: "Credenciales incorrectas",
         duration: 2000,
+        className: "bg-red-100", // Alternativa: usar className para estilo de error
       });
     }
   };
