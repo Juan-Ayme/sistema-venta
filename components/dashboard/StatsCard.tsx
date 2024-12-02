@@ -7,7 +7,6 @@ interface StatsCardProps {
   title: string;
   value: string | number;
   icon: React.ReactNode;
-  percentageIncrease: number;
 }
 
 export default function StatsCard({

@@ -1,12 +1,4 @@
-// Inspired by react-hot-toast library
 import { useState, useCallback, useEffect } from "react";
-
-export interface Toast {
-  id: string;
-  title?: string;
-  description?: string;
-  duration?: number;
-}
 
 interface ToastState {
   toasts: Toast[];
