@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/components/ui/use-toast";
-import { User, Lock, LogIn } from 'lucide-react'; // Importamos los iconos
+import { User, Lock, LogIn } from 'lucide-react';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -38,12 +38,11 @@ export default function LoginPage() {
         description: "Bienvenido al sistema",
         duration: 2000,
       });
-      router.push("/");
+      router.push("/dashboard");
     } else {
       toast({
         title: "Error",
         description: "Credenciales incorrectas",
-        variant: "destructive",
         duration: 2000,
       });
     }
