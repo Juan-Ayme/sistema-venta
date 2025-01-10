@@ -54,7 +54,7 @@ export default function Sidebar() {
         <div className="space-y-4 py-4 flex flex-col h-full">
           <div className="px-3 py-2 flex-1">
             <Link href="/" className="flex items-center pl-3 mb-14">
-              <h1 className="text-2xl font-bold">Sistema de Ventas</h1>
+              <h1 className="text-2xl font-bold ">S.A.C</h1>
             </Link>
             <div className="space-y-1">
               {routes.map((route) => (

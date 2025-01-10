@@ -67,7 +67,7 @@ export default function LoginPage() {
           </svg>
         </div>
         
-        <h1 className="text-2xl font-bold text-center mb-6 text-gray-700">Sistema de Ventas</h1>
+        <h1 className="text-2xl font-bold text-center mb-6 text-gray-700">S.A.C</h1>
         
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="relative">
